@@ -26,3 +26,11 @@ void Car::displayInfo() const {
 void Car::printPriceChange(double from, double to) const {
     std::cout << "Changing price from " << from << " to " << to << "\n";
 }
+
+void Car::setDriver(Driver* driver){
+    this->driver = driver;
+}
+
+Driver* Car::getDriver() const{
+    return driver;
+}
