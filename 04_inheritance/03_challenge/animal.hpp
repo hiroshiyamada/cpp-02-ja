@@ -1,1 +1,5 @@
-// コードを入力してください
+class Animal{
+    public:
+        Animal();
+        virtual void makeSound();
+};
