@@ -1,1 +1,7 @@
-// コードを入力してください
+#include "drawable.hpp"
+
+class Square : public Drawable{
+    public:
+        Square();
+        void draw();
+};
